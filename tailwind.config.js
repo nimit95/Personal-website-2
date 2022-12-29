@@ -25,16 +25,45 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ['Open sans', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.teal,
         gray: colors.neutral,
       },
+      fontSize: {
+        sm: '0.8rem',
+        base: '1rem',
+        lg: '1.25rem',
+        xl: '1.5rem',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+      },
+      fontWeight: {
+        hairline: 100,
+        'extra-light': 100,
+        thin: 200,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+        extrabold: 800,
+        'extra-bold': 800,
+        black: 900,
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            // fontFamily: ['Lora'],
             color: theme('colors.gray.700'),
+            p: {
+              fontSize: theme('fontSize.base'),
+              fontWeight: theme('fontWeight.normal'),
+              // lineHeight: '1.75rem'
+            },
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {

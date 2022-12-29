@@ -20,24 +20,29 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="flex flex-wrap space-y-2 pt-6 pb-8 md:space-y-5">
-          <div>
+        <div className="flex flex-1 flex-row flex-wrap items-center justify-center">
+          <div className="center">
             <Image
               src={siteMetadata.image}
               alt="avatar"
-              width="200px"
-              height="300px"
-              className="object-cover"
+              width="250px"
+              height="250px"
+              className="rounded-full object-cover"
             />
           </div>
+          <div className="prose ml-0 py-5 py-8 dark:prose-dark lg:ml-5 xl:col-span-2">
+            <h2 className="mb-2 text-3xl font-extrabold">Hey, I am Nimit 👋</h2>
+            <p>
+              I am software Enigneer at Meta. Love to tinker with the code to make something new and
+              exciting. I moslty spend my time either watching youtube or reading something
+              interesting. Occasionally, I go out and visit new places and click some{' '}
+              <Link href="https://instagram.com/better_jpeg">pictures</Link>. My{' '}
+              <a href="https://twitter.com/nimit95">DMs</a> are always open.
+            </p>
+          </div>
         </div>
-        <div>
-          <p>
-            This is all the information about me. This should come on side on bigger sceen and down
-            on small screen
-          </p>
-        </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+
+        <ul className="divide-y divide-gray-400 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
