@@ -5,6 +5,9 @@ tags: ['iOS', 'Mac', 'Apple', 'Apps', 'Tech']
 draft: false
 summary: 'Notarization of the mac apps manually for Mac OS Catalina and higher'
 authors: ['default']
+images: ['/static/images/catalina.webp']
+layout: PostLayout
+canonicalUrl: https://medium.com/@nimit95/fix-macos-catalina-caused-app-failures-1f9a05d2b0ec
 ---
 
 ![Catalina](/static/images/catalina.webp)

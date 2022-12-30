@@ -5,6 +5,9 @@ tags: ['javascript', 'nodejs', 'tech', 'networking']
 draft: false
 summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
 authors: ['default']
+images: ['/static/images/fproxy.webp']
+layout: PostLayout
+canonicalUrl: https://medium.com/@nimit95/a-simple-http-https-proxy-in-node-js-4eb0444f38fc
 ---
 
 # Overview

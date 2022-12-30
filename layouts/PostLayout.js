@@ -87,15 +87,18 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              <div className="flex items-center justify-center">
-                <iframe
-                  src="https://nimitagg.substack.com/embed"
-                  width="480"
-                  height="320"
-                  frameorder="0"
-                  scrolling="no"
-                  className="bg-white"
-                ></iframe>
+              <div className="flex flex-col items-center justify-center">
+                <div className="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-100">
+                  Subscribe to the newsletter
+                </div>
+                <div className="flex w-full items-center justify-center">
+                  <iframe
+                    src="https://nimitagg.substack.com/embed"
+                    frameorder="0"
+                    scrolling="no"
+                    className="bg-white"
+                  ></iframe>
+                </div>
               </div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">

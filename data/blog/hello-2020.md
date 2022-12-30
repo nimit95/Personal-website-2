@@ -5,6 +5,9 @@ tags: ['travel', 'new year', 'Non tech']
 draft: false
 summary: 'My personal refelction of the year 2019'
 authors: ['default']
+images: ['/static/images/lonavala.webp']
+layout: PostLayout
+canonicalUrl: https://medium.com/@nimit95/hello-2020-79a4f93e3b8b
 ---
 
 # Overview

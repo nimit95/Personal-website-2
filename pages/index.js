@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from '@/components/Image'
 import NewsletterForm from '@/components/NewsletterForm'
+import SocialIcon from '@/components/social-icons'
 
 const MAX_DISPLAY = 5
 
@@ -21,7 +22,7 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="flex flex-row flex-wrap items-center justify-center">
-          <div className="flex">
+          <div className="mb-5 flex flex-col items-center justify-center">
             <Image
               src={siteMetadata.image}
               alt="avatar"
@@ -29,6 +30,11 @@ export default function Home({ posts }) {
               height="250px"
               className="shrink rounded-full object-cover"
             />
+            <div className="flex space-x-3 pt-6">
+              <SocialIcon kind="github" href={siteMetadata.github} />
+              <SocialIcon kind="linkedin" href={siteMetadata.linkedin} />
+              <SocialIcon kind="twitter" href={siteMetadata.twitter} />
+            </div>
           </div>
           <div className="md: prose ml-5 max-w-sm flex-col py-8 dark:prose-dark">
             <h2 className="mb-2 text-xl font-extrabold">Hey, I am Nimit 👋</h2>
@@ -41,15 +47,18 @@ export default function Home({ posts }) {
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center">
-          <iframe
-            src="https://nimitagg.substack.com/embed"
-            width="480"
-            height="320"
-            frameorder="0"
-            scrolling="no"
-            className="bg-white"
-          ></iframe>
+        <div className="flex flex-col items-center justify-center">
+          <div className="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-100">
+            Subscribe to the newsletter
+          </div>
+          <div className="flex w-full items-center justify-center">
+            <iframe
+              src="https://nimitagg.substack.com/embed"
+              frameorder="0"
+              scrolling="no"
+              className="bg-white"
+            ></iframe>
+          </div>
         </div>
         <ul className="divide-y divide-gray-400 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
