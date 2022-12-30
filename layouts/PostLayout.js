@@ -87,8 +87,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              <div className="flex flex-col items-center justify-center">
-                <div className="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-100">
+              <div className="flex flex-col items-center justify-center py-2">
+                <div className="prose text-xl font-semibold text-gray-800 dark:text-gray-100">
                   Subscribe to the newsletter
                 </div>
                 <div className="flex w-full items-center justify-center">
@@ -96,7 +96,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     src="https://nimitagg.substack.com/embed"
                     frameorder="0"
                     scrolling="no"
-                    className="bg-white"
+                    className="bg-white dark:bg-inherit"
                   ></iframe>
                 </div>
               </div>
