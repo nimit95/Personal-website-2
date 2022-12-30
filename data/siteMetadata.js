@@ -1,13 +1,13 @@
 const siteMetadata = {
   title: 'Nimit Aggarwal | Software Engineer @Meta',
   author: 'Nimit Aggarwal',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: 'Nimit Aggarwal | Software Engineer @Meta',
+  description: 'Nimit protfolio website',
   language: 'en-us',
   theme: 'light', // system, dark or light
   siteUrl: 'https://nimitaggarwal.me',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/images/avatar.jpeg',
   image: '/static/images/avatar.jpeg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'nimitagg95@gmail.com',
