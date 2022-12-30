@@ -3,7 +3,7 @@ import Plausible from './Plausible'
 import SimpleAnalytics from './SimpleAnalytics'
 import Umami from './Umami'
 import Posthog from './Posthog'
-import Vercel from '@vercel/analytics/react'
+import { Analytics as Vercel } from '@vercel/analytics/react'
 import siteMetadata from '@/data/siteMetadata'
 
 const isProduction = process.env.NODE_ENV === 'production'
@@ -16,7 +16,7 @@ const Analytics = () => {
       {isProduction && siteMetadata.analytics.umamiWebsiteId && <Umami />}
       {isProduction && siteMetadata.analytics.googleAnalyticsId && <GA />}
       {isProduction && siteMetadata.analytics.posthogAnalyticsId && <Posthog />}
-      {isProduction && siteMetadata.analytics.enableVercel && <Vercel.Analytics />}
+      {isProduction && siteMetadata.analytics.enableVercel && <Vercel />}
     </>
   )
 }
