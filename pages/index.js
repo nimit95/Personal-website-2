@@ -20,7 +20,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y divide-gray-300 dark:divide-gray-700">
         <div className="flex flex-row flex-wrap items-center justify-center">
           <div className="mb-5 flex flex-col items-center justify-center">
             <Image
@@ -47,8 +47,8 @@ export default function Home({ posts }) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center">
-          <div className="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-100">
+        <div className="flex flex-col items-center justify-center py-2">
+          <div className="prose text-lg font-semibold text-gray-800 dark:text-gray-100">
             Subscribe to the newsletter
           </div>
           <div className="flex w-full items-center justify-center">
@@ -56,11 +56,39 @@ export default function Home({ posts }) {
               src="https://nimitagg.substack.com/embed"
               frameorder="0"
               scrolling="no"
-              className="bg-white"
+              className="bg-white dark:bg-inherit"
             ></iframe>
           </div>
         </div>
-        <ul className="divide-y divide-gray-400 dark:divide-gray-700">
+        <div className="flex flex-col items-center justify-center py-2">
+          <div className="text-lg font-semibold text-gray-800 dark:text-gray-100">
+            Companies I have worked with
+          </div>
+          <div className="grid w-full grid-cols-3 items-center justify-center gap-10 pt-6">
+            <Image
+              src="/static/images/Meta_Platforms_Inc._logo.svg.png"
+              alt="avatar"
+              width="100px"
+              height="50px"
+              className=""
+            />{' '}
+            <Image
+              src="/static/images/browserstack-logo-600x315.png"
+              alt="avatar"
+              width="80px"
+              height="70px"
+              className=""
+            />
+            <Image
+              src="/static/images/medianet.png"
+              alt="avatar"
+              width="100px"
+              height="30px"
+              className=""
+            />
+          </div>
+        </div>
+        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
@@ -121,11 +149,6 @@ export default function Home({ posts }) {
           >
             All Posts &rarr;
           </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
         </div>
       )}
     </>
