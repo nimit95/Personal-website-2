@@ -62,7 +62,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           width="38px"
                           height="38px"
                           alt="avatar"
-                          className="h-10 w-10 rounded-full"
+                          className="h-10 w-10 rounded-full object-cover"
                         />
                       )}
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">
@@ -87,6 +87,16 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
+              <div className="flex items-center justify-center">
+                <iframe
+                  src="https://nimitagg.substack.com/embed"
+                  width="480"
+                  height="320"
+                  frameorder="0"
+                  scrolling="no"
+                  className="bg-white"
+                ></iframe>
+              </div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discuss on Twitter'}

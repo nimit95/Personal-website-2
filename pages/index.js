@@ -20,18 +20,18 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="flex flex-1 flex-row flex-wrap items-center justify-center">
-          <div className="center">
+        <div className="flex flex-row flex-wrap items-center justify-center">
+          <div className="flex">
             <Image
               src={siteMetadata.image}
               alt="avatar"
               width="250px"
               height="250px"
-              className="rounded-full object-cover"
+              className="shrink rounded-full object-cover"
             />
           </div>
-          <div className="prose ml-0 py-5 py-8 dark:prose-dark lg:ml-5 xl:col-span-2">
-            <h2 className="mb-2 text-3xl font-extrabold">Hey, I am Nimit 👋</h2>
+          <div className="md: prose ml-5 max-w-sm flex-col py-8 dark:prose-dark">
+            <h2 className="mb-2 text-xl font-extrabold">Hey, I am Nimit 👋</h2>
             <p>
               I am software Enigneer at Meta. Love to tinker with the code to make something new and
               exciting. I moslty spend my time either watching youtube or reading something
@@ -41,7 +41,16 @@ export default function Home({ posts }) {
             </p>
           </div>
         </div>
-
+        <div className="flex items-center justify-center">
+          <iframe
+            src="https://nimitagg.substack.com/embed"
+            width="480"
+            height="320"
+            frameorder="0"
+            scrolling="no"
+            className="bg-white"
+          ></iframe>
+        </div>
         <ul className="divide-y divide-gray-400 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {

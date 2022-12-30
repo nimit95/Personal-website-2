@@ -1,9 +1,9 @@
 ---
 title: Hello, 2020
 date: '2020-01-02'
-tags: ['next js', 'guide']
+tags: ['travel', 'new year', 'Non tech']
 draft: false
-summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
+summary: 'My personal refelction of the year 2019'
 authors: ['default']
 ---
 
@@ -16,7 +16,7 @@ I started my 2019 by ordering a hot chocolate fudge, hoping this year would be a
 ## Traveling
 
 I started my travel journey this year and figured out how much I love it. Most of my plans were impromptu. Deciding at 1 am to catch a 4 am train. Finalizing hotels just a day before. Things like these got me hooked. I visited seven cities this year, including my first international trip to Dubai. Coincidentally I visited Dubai twice this year, first with my family and then in a company outing.
-![Lonavala](https://miro.medium.com/max/1400/1*8_4YujpEvEhu66mShHOmzg.webp)
+![Lonavala](/static/images/lonavala.webp)
 |:--:|
 | _Lonavala_ |
 
@@ -42,7 +42,9 @@ Technical things that I learned can be a separate blog post altogether. I would 
 
 Although I planned on reading a book every month, I read five books. I know it is too less, but in my defense, some were thick and heavy(to grasp). E.g., microservices, data-driven applications. So reading less is fine until I am able to grasp everything. Better be slow than irresponsible 😛
 
-Building Microservices by [Sam Newman](https://medium.com/u/de19973d94b6?source=post_page-----79a4f93e3b8b--------------------------------)
+![Sam Newman](/static/images/buildingms.webp)
+|:--:|
+| Building Microservices by Sam Newman |
 
 # 2020 Plans
 

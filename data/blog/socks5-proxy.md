@@ -1,7 +1,7 @@
 ---
 title: SOCKS 5 — A Proxy Protocol
 date: '2019-07-22'
-tags: ['next js', 'guide']
+tags: ['Proxy', 'Internet', 'Tech', 'Networking']
 draft: false
 summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
 authors: ['default']
@@ -31,7 +31,9 @@ A wishes to communicate to B over the internet, but a [firewall](<https://en.wik
 
 The SOCKS5 protocol is defined in [RFC 1928](https://tools.ietf.org/html/rfc1928). Here is a brief introduction of the protocol in the diagram. For detailed protocol features please refer to [RFC 1928](https://tools.ietf.org/html/rfc1928)
 
-SOCKS 5 HANDSHAKE\[NOTE: 5, 1, 0 are actual bytes (0x05, 0x01, 0x00)\]
+![handshake](/static/images/sockshanshake.webp)
+|:--:|
+|SOCKS 5 HANDSHAKE\[NOTE: 5, 1, 0 are actual bytes (0x05, 0x01, 0x00)\]|
 
 **Handshake**
 
@@ -55,7 +57,7 @@ SOCKS Proxy sends back to A(**0x05, 0x00**). :-
 
 1.  The **Second Byte 0x00** is the chosen authentication method by the proxy. In this case, it was the only method provided by the client hence this. The subsequent authentication is method-dependent. Username and password authentication(method 0x02) is described in [RFC 1929](https://tools.ietf.org/html/rfc1929). Here no authentication dependent steps need to take place further. If the negotiated method includes encapsulation for purposes of integrity checking and/or confidentiality, further requests **MUST** be encapsulated in the method-dependent encapsulation.
 
-A(Client) sends the request packet (**0x05, 0x01, 0x00, 0x03, <B_HOST>, <B_PORT>**). Once the method-dependent subnegotiation has completed, the client sends the request details to SOCKS proxy:-
+A(Client) sends the request packet (**0x05, 0x01, 0x00, 0x03, B_HOST, B_PORT**). Once the method-dependent subnegotiation has completed, the client sends the request details to SOCKS proxy:-
 
 1.  The **Second Byte 0x01** is for the command code. It is one byte
 
@@ -77,7 +79,7 @@ A(Client) sends the request packet (**0x05, 0x01, 0x00, 0x03, <B_HOST>, <B_PORT>
 
 4\. The last Byte is port number in a [network byte order](https://en.wikipedia.org/wiki/Network_byte_order), 2 bytes
 
-SOCKS proxy sends back the request packet (**0x05, 0x00, 0x00, 0x01, <B_HOST>, <B_PORT>**). This is for the status of the request by the client to the proxy:-
+SOCKS proxy sends back the request packet (**0x05, 0x00, 0x00, 0x01, B_HOST, B_PORT**). This is for the status of the request by the client to the proxy:-
 
 1.  The **Second Byte 0x00** is the status field. It is one byte. Meaning the request was granted.
 2.  The **Third Byte 0x00** is a reserved byte. It **must** be 0x00 and 1 byte.

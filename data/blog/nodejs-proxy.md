@@ -1,7 +1,7 @@
 ---
 title: A Simple HTTP/HTTPS Proxy in Node Js
 date: '2018-10-20'
-tags: ['next js', 'guide']
+tags: ['javascript', 'nodejs', 'tech', 'networking']
 draft: false
 summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
 authors: ['default']
@@ -11,17 +11,21 @@ authors: ['default']
 
 A proxy is a simple server between you and your intended host on the internet. There are mainly two types of proxy, **Forward proxy** and **Reverse proxy.**
 
-**Forward Proxy**
+## Forward Proxy
 
 Mostly, the simple term “proxy” refers to a Forward Proxy. It simply sits between a client and a server and acts as a relaying agent. They are usually placed by the clients or the internal network from the client side. There can be various use cases for using a forward proxy like keeping track of requests, responses, deny access to some domains, modifying the headers, changing the location etc.
 
-Forward Proxy
+![Forward Proxy ](/static/images/fproxy.webp)
+|:--:|
+|Forward Proxy|
 
-**Reverse Proxy**
+## Reverse Proxy
 
 These type of proxies are employed by the servers, mostly for security and load balancing purposes. Clients hit these reverse proxy servers instead of the actual servers, then these proxy serves the request to the actual server. For a web server, there are several benefits associated with such architecture. It can keep malicious users out, load balance between the servers and can reduce the load on its origin servers by caching static content.
 
-Reverse Proxy
+![Reverse Proxy ](/static/images/rproxy.webp)
+|:--:|
+|Reverse Proxy|
 
 # Getting started
 
@@ -31,7 +35,7 @@ We will be using the net module in the Node. I assume a basic knowledge of NodeJ
 
 We create a simple `net` server first which listens on Port `8124` , this server will act as a proxy server for the clients to connect.
 
-```
+```javascript
 const net = require('net');
 const server = net.createServer();server.on('connection', (clientToProxySocket) => {
   console.log('Client Connected To Proxy');
@@ -59,17 +63,17 @@ In the case of HTTPS, we can’t read the packet due to the SSL encryption, so i
 
 After getting the hostname, we connect to the server using `net.createConnection()` . It takes two parameters, the host and port to connect and the second is the connected callback. After the connection, we simply pipe the clientToProxySocket to proxyToServerSocket. Sockets are derived from the streams so they can be piped. To read more about streams and piping refer [this](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93). TL;DR piping is
 
-```
-**readableSrc**.pipe(**writableDest**)
+```javascript
+readableSrc.pipe(writableDest)
 ```
 
 The final code looks like in the after the connection to our proxy —
 
-```
-**server.on**('connection', (clientToProxySocket) => {
+```javascript
+server.on('connection', (clientToProxySocket) => {
   console.log('Client Connected To Proxy');
   // We need only the data once, the starting packet
-  **clientToProxySocket.once**('data', (data) => {
+  clientToProxySocket.once('data', (data) => {
     let isTLSConnection = data.toString().indexOf('CONNECT') !== -1;
 
     //Considering Port as 80 by default
@@ -98,8 +102,9 @@ The final code looks like in the after the connection to our proxy —
         proxyToServerSocket.write(data);
       }
       // Piping the sockets
-      **clientToProxySocket.pipe(proxyToServerSocket);
-      proxyToServerSocket.pipe(clientToProxySocket);** proxyToServerSocket.on('error', (err) => {
+      clientToProxySocket.pipe(proxyToServerSocket);
+      proxyToServerSocket.pipe(clientToProxySocket);
+      proxyToServerSocket.on('error', (err) => {
         console.log('PROXY TO SERVER ERROR');
         console.log(err);
       });
@@ -120,14 +125,6 @@ Now you can set up your system or browser proxy to `127.0.0.1` (localhost) and p
 
 The final repo of the code can be seen below —
 
-[
+[https://github.com/nimit95/Forward-Proxy](https://github.com/nimit95/Forward-Proxy)
 
-## nimit95/Forward-Proxy
-
-### Forward proxy in NodeJS to handle HTTP/HTTPS. Contribute to nimit95/Forward-Proxy development by creating an account on…
-
-github.com
-
-](https://github.com/nimit95/Forward-Proxy)
-
-For any queries, you can connect with me on twitter @nimit95.
+For any queries, you can connect with me on twitter [@nimit95](https://twitter.com/nimit95).

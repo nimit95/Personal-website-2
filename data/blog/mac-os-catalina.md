@@ -1,15 +1,19 @@
 ---
 title: How to fix app failures on Mac OS Catalina — Notarization
 date: '2019-10-26'
-tags: ['next js', 'guide']
+tags: ['iOS', 'Mac', 'Apple', 'Apps', 'Tech']
 draft: false
-summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
+summary: 'Notarization of the mac apps manually for Mac OS Catalina and higher'
 authors: ['default']
 ---
+
+![Catalina](/static/images/catalina.webp)
 
 # Overview
 
 With the release of macOS Catalina in October, Apple has mandated gatekeeper check for all applications. Applications with non-existent notarization would result in a warning at the start of the application and the message would prompt as “Cannot check it for malicious software”.
+
+![dialougue](/static/images/dialougue.webp)
 
 One way to bypass such a message would be to right-click on the application and click on “open”. But, this method would not work for command-line applications/executables. In order to safely pass through the apple’s gatekeeper check, one would require to notarize the application ( for more details refer [here](https://developer.apple.com/documentation/xcode/notarizing_your_app_before_distribution/)), and another would be to ask the user to allow such apps in the security setting. As a developer, it is much easier to notarize the app rather than have the user take such security steps.
 
