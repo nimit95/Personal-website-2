@@ -1,19 +1,26 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    title: 'Design Patterns in NodeJS',
+    description: `All the 23 (GoF) design patterns implemented in Javascript with Real World Example using Node.js APIs.`,
+    imgSrc: '',
+    href: 'https://github.com/nimit95/Real-world-Design-Patterns-Node-JS',
+  },
+  {
+    title: 'Okr todo',
+    description: `A Simple Objective and Key Result TODO-LIST. v1 server Side Rendered with pug and v2 in React. Used Node and Express at the backend. MySQL is the DB.`,
+    imgSrc: '',
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'SOCKS5 Stream',
+    description: `Convert any socket server into socks5 server using streams.`,
+    imgSrc: '',
+    href: 'https://github.com/nimit95/socks5-stream',
+  },
+  {
+    title: 'CPP Headers',
+    description: 'C++ header for Data structure',
+    href: 'https://github.com/nimit95/cpp-header',
   },
 ]
 

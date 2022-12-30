@@ -48,7 +48,7 @@ export default function Home({ posts }) {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center py-2">
-          <div className="prose text-lg font-semibold text-gray-800 dark:text-gray-100">
+          <div className="prose text-xl font-semibold text-gray-800 dark:text-gray-100">
             Subscribe to the newsletter
           </div>
           <div className="flex w-full items-center justify-center">
@@ -61,7 +61,7 @@ export default function Home({ posts }) {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center py-2">
-          <div className="text-lg font-semibold text-gray-800 dark:text-gray-100">
+          <div className="text-xl font-semibold text-gray-800 dark:text-gray-100">
             Companies I have worked with
           </div>
           <div className="grid w-full grid-cols-3 items-center justify-center gap-10 p-6">
@@ -89,8 +89,8 @@ export default function Home({ posts }) {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center py-2">
-          <div className="text-lg font-semibold text-gray-800 dark:text-gray-100">Blog</div>
-          <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+          <div className="text-xl font-semibold text-gray-800 dark:text-gray-100">Blog</div>
+          <ul className="divide-gray-250 divide-y dark:divide-gray-700">
             {!posts.length && 'No posts found.'}
             {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
               const { slug, date, title, summary, tags } = frontMatter
