@@ -1,5 +1,17 @@
 const projectsData = [
   {
+    title: 'Personal Blog Website',
+    description: `My personal Website made with NextJS and tailwind.`,
+    imgSrc: '/static/images/nimitaggarwal.png',
+    href: 'https://github.com/nimit95/Real-world-Design-Patterns-Node-JS',
+  },
+  {
+    title: 'Personal Website',
+    description: `My Personal Website in React, Material UI, React Spring. Contents can be modified via single JSON.`,
+    imgSrc: '/static/images/nimitaggrwal.png',
+    href: 'https://github.com/nimit95/Personal-Website',
+  },
+  {
     title: 'Design Patterns in NodeJS',
     description: `All the 23 (GoF) design patterns implemented in Javascript with Real World Example using Node.js APIs.`,
     imgSrc: '',
