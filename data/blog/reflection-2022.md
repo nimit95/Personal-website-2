@@ -1,11 +1,11 @@
 ---
-title: Refelctiing 2022
+title: Refelcting on 2022
 date: '2022-12-30'
 tags: ['travel', 'new year', 'Non tech']
 draft: false
 summary: 'My personal refelction of the year 2022'
 authors: ['default']
-images: ['/static/images/lonavala.webp']
+images: ['/static/images/lochness.jpg']
 layout: PostLayout
 canonicalUrl: https://medium.com/@nimit95/hello-2020-79a4f93e3b8b
 ---
@@ -24,6 +24,8 @@ Biggest news of year 2022:-
 2.  Moved from Delhi (India) to London (UK).
 3.  Met king of UK 😛
 
+![King Charles](/static/images/king.jpg)
+
 ## Highlights
 
 ### Career Growth
@@ -33,6 +35,7 @@ This has to start with the biggest change. I switched my jobs from MediaNet to M
 Though technically a career switch is not equivalent to career growth per se, but in my case all my jobs involved different kind of exposure. BrowserStack was a SaaS start-up where focus was towards growth of the business, bringing in more customers. MediaNet(B2C) was more stable business where keeping business and incremental changes were top priorities. Meta currently in this phase of protect and increase the revenue. This gives me lot of exposure into various lifecycles of a company. I can choose where I want to work.
 
 Another critical point is to realise the area of software development you are interested in. It can be android, iOS, backend development etc. Even each of these categories has so many subcategories. For example, I am a backend engineer. I like to work in a team that is close to the product, where any change I make and can see real-time customer impact.
+![Instagram](/static/images/ig.png)
 
 ### Travelling
 
@@ -41,6 +44,8 @@ In two years, I couldn’t travel much due to covid restriction. So, in 2022 I d
 This realisation and the change in mental model came after covid restrictions. I rued over the fact that I didn’t travel much when in pre covid era. I was too engrossed in myself that I let the time slip by. Also, another thought that changed my model, was something that my friend told me. This is the sweet spot where we have the combination of freedom, money and energy.
 
 I travelled extensively in UK. Again, my most of the plans were impromptu. Planning every trip just 3-4 days before the actual departure. To name a few places, I travelled to Bristol, Scotland, Wales and many other places. The best part travelling here is I get to see untouched nature. Hikes here though less strenuous than Himalayas but are incredibly beautiful.
+
+![Snowdon](/static/images/snowdon.jpeg)
 
 ### Health, Fitness and Nutrition
 
@@ -68,4 +73,6 @@ P.S - I strongly suggest everyone to start investing, in any instrument of your 
 
 Everything is not rosy as it sounds, it is difficult to live far from the family. The possibility of only able to visit them twice per year kind of breaks my heart. This teaches an important lesson of not taking anyone for granted. Life of comfort is much easier to live but the life with hardship is much rewarding. Just like muscle fibre, human beings only grow when are hurt.
 
-difficult to live far from the family. The possibility of only able to visit them twice per year kinda breaks my heart. This teaches an important lesson of not taking anyone for granted. Life of comfort is much easier to live but the life with hardship is much rewarding. Just like muscle fibre, human beings only grows when are hurt.
+It is difficult to live far from the family. The possibility of only able to visit them twice per year breaks my heart. This teaches an important lesson of not taking anyone for granted. Life of comfort is much easier to live but the life with hardship is much rewarding. Just like muscle fibre, human beings only grows when are hurt.
+
+Thanks for reading. Look out for the next post on the my 2023 goals..
