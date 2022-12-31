@@ -35,7 +35,7 @@ This has to start with the biggest change. I switched my jobs from MediaNet to M
 Though technically a career switch is not equivalent to career growth per se, but in my case all my jobs involved different kind of exposure. BrowserStack was a SaaS start-up where focus was towards growth of the business, bringing in more customers. MediaNet(B2C) was more stable business where keeping business and incremental changes were top priorities. Meta currently in this phase of protect and increase the revenue. This gives me lot of exposure into various lifecycles of a company. I can choose where I want to work.
 
 Another critical point is to realise the area of software development you are interested in. It can be android, iOS, backend development etc. Even each of these categories has so many subcategories. For example, I am a backend engineer. I like to work in a team that is close to the product, where any change I make and can see real-time customer impact.
-![Instagram](/static/images/ig.png)
+![Instagram](/static/images/insta.png)
 
 ### Travelling
 
