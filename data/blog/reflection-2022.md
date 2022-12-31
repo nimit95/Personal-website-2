@@ -1,5 +1,5 @@
 ---
-title: Refelcting on 2022
+title: Reflecting on 2022
 date: '2022-12-30'
 tags: ['travel', 'new year', 'Non tech']
 draft: false
