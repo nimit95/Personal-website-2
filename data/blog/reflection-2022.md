@@ -2,9 +2,12 @@
 title: Refelctiing 2022
 date: '2022-12-30'
 tags: ['travel', 'new year', 'Non tech']
-draft: true
+draft: false
 summary: 'My personal refelction of the year 2022'
 authors: ['default']
+images: ['/static/images/lonavala.webp']
+layout: PostLayout
+canonicalUrl: https://medium.com/@nimit95/hello-2020-79a4f93e3b8b
 ---
 
 # Overview
