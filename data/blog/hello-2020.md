@@ -3,7 +3,7 @@ title: Hello, 2020
 date: '2020-01-02'
 tags: ['travel', 'new year', 'Non tech']
 draft: false
-summary: 'My personal refelction of the year 2019'
+summary: 'My personal reflection of the year 2019'
 authors: ['default']
 images: ['/static/images/lonavala.webp']
 layout: PostLayout

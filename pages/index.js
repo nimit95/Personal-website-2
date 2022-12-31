@@ -40,7 +40,7 @@ export default function Home({ posts }) {
             <h2 className="mb-2 text-xl font-extrabold">Hey, I am Nimit 👋</h2>
             <p>
               I am software Enigneer at Meta. Love to tinker with the code to make something new and
-              exciting. I moslty spend my time either watching youtube or reading something
+              exciting. I mostly spend my time either watching youtube or reading something
               interesting. Occasionally, I go out and visit new places and click some{' '}
               <Link href="https://instagram.com/better_jpeg">pictures</Link>. My{' '}
               <a href="https://twitter.com/nimit95">DMs</a> are always open.
@@ -62,7 +62,7 @@ export default function Home({ posts }) {
         </div>
         <div className="flex flex-col items-center justify-center py-2">
           <div className="text-xl font-semibold text-gray-800 dark:text-gray-100">
-            Companies I have worked with
+            Companies I have worked for
           </div>
           <div className="grid w-full grid-cols-3 items-center justify-center gap-10 p-6">
             <Image
