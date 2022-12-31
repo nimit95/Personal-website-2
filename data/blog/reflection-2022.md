@@ -73,6 +73,4 @@ P.S - I strongly suggest everyone to start investing, in any instrument of your 
 
 Everything is not rosy as it sounds, it is difficult to live far from the family. The possibility of only able to visit them twice per year kind of breaks my heart. This teaches an important lesson of not taking anyone for granted. Life of comfort is much easier to live but the life with hardship is much rewarding. Just like muscle fibre, human beings only grow when are hurt.
 
-It is difficult to live far from the family. The possibility of only able to visit them twice per year breaks my heart. This teaches an important lesson of not taking anyone for granted. Life of comfort is much easier to live but the life with hardship is much rewarding. Just like muscle fibre, human beings only grows when are hurt.
-
 Thanks for reading. Look out for the next post on the my 2023 goals..
