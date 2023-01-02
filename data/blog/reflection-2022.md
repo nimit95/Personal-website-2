@@ -30,7 +30,7 @@ Biggest news of year 2022:-
 
 ### Career Growth
 
-This has to start with the biggest change. I switched my jobs from MediaNet to Meta at London. I had no plans for a switch but got approached by meta recruiter which ignited my interest. And the reason they were able to find me was a good LinkedIn profile. If you want to learn build LinkedIn effectively, you can watch [this](<[YouTube](https://www.youtube.com/watch?v=TwG9TC0b1dU)>) video. Luckily, I was able to clear the interview loop and moved from Delhi to London. For practicing DS & Algo I simply did questions on Leetcode and kept doing them until I felt confident.
+This has to start with the biggest change. I switched my jobs from MediaNet to Meta at London. I had no plans for a switch but got approached by meta recruiter which ignited my interest. And the reason they were able to find me was a good LinkedIn profile. If you want to learn build LinkedIn effectively, you can watch [this](https://www.youtube.com/watch?v=TwG9TC0b1dU) video. Luckily, I was able to clear the interview loop and moved from Delhi to London. For practicing DS & Algo I simply did questions on Leetcode and kept doing them until I felt confident.
 
 Though technically a career switch is not equivalent to career growth per se, but in my case all my jobs involved different kind of exposure. BrowserStack was a SaaS start-up where focus was towards growth of the business, bringing in more customers. MediaNet(B2C/B2B) was a more established and mature business and invlolved incremental changes to features. Meta is a very big corporate where my current focus is to increase the revenue. This gives me lot of exposure into various different companies. In future I can make an informed where I live to work.
 
