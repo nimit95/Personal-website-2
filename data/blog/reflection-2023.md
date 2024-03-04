@@ -12,11 +12,11 @@ canonicalUrl: https://medium.com/@nimit95/hello-2020-79a4f93e3b8b
 
 # Overview
 
-Another year comes to an end and it is the time to write the yearly review for the blog. This has been a tradition for past 2 years, and I am really proud of the way it is still continuing. 2023 was a year of emotional learning for me, I learnt so much about myself and my emotions. I come out of the year stronger and more resillient. Most of the months posed a new emotional challange and me trying to figure solutions to get over them. I think the is the age as we grow up, as we become more independent more unique situation starts to pop up. These situations are different from any other seen before and needs a stronger resolve. I feel confident coming out of 2023 and I am ready to tackle all the challanges with all the strength I have.
+Another year comes to an end and it is the time to write the yearly review for my blog. This has been a tradition for past 2 years, and I am really proud of the way it is going. Conistency with discpline is the key. 2023 was a year of emotional learning for me, I learnt so much about myself and my emotions. There were so many highs then there were so many lows as well. I come out of the year stronger and more resillient. Most of the months posed a new emotional challange and me trying to find solutions. Late 20s is the age where as we grow to become more independent, we encounter ditinct situations. These situations are different from any other seen before and needs a stronger resolve. I feel confident coming out of 2023 and I am ready to tackle all the challanges with all the strength I have.
 
-In the first month of 2023, I got the news of my close friend missing. He had been missing since new year's eve and some days later we found his body. The whole incident came as a big shock to me that he is not with us anymore. He was so young, good heart, gone too soon man. This was the hardest pill to swallow. 😢
+In the first month of 2023, I got the news of my close friend missing. He had been missing since new year's eve and some days later we found his body. The whole incident came as a big shock to me that he is not with us anymore. He was so young, good heart, gone too soon man. This was the hardest pill to swallow at begging of the year. 😢
 
-On the other hand one of my another very good friend cleared IAS exam.
+On the other hand one of my another very good friend cleared her IAS exam. Definitely proud of the way she prepared and cleared one of the toughest exam with perseverance. Such are the high and the lows of life.
 
 Major highlights of the year:-
 
@@ -25,6 +25,10 @@ Major highlights of the year:-
 3.  Consistency with the gym
 
 ## Travel
+
+This year I made a point to travel since I love it so much, and I had been putting it on backseat for last couple of years. I planned most of trips pretty early, booking flight and hotels way ahead. Additionally I was able to secure my schengen visa for 6 months. There is so much competiotion to book the schengen appointment, it almost feels like a exam and lottery.
+
+I travelled to 3 new countries this year, italy, spain and norway. Travelled locally in UK and the US. Hiking was included in most of the trips, to enjot the nature. I really love the way europe cities spend on the public infra structure, vities with
 
 hiking
 europe
